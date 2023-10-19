@@ -6,7 +6,7 @@ import ErrorBoundary from './ErrorBoundary';
 import MainPage from './pages/MainPage';
 
 import ProfileExample from './pages/ProfileExample';
-import BrenoProfile from './pages/profiles/BrenoProfile';
+import ViniProfile from './pages/profiles/ViniProfile';
 
 const DefaultLayout = React.lazy(() => import('./layout/DefaultLayout'));
 
@@ -20,7 +20,7 @@ function App() {
           <Route element={<DefaultLayout />}>
             
             <Route path="/example" element={<ProfileExample/>}/>
-            <Route path="/breno" element={<BrenoProfile/>}/>
+            <Route path="/vini" element={<ViniProfile/>}/>
 
           </Route>
 
