@@ -7,6 +7,7 @@ import MainPage from './pages/MainPage';
 
 import ProfileExample from './pages/ProfileExample';
 import BrenoProfile from './pages/profiles/BrenoProfile';
+import RyanProfile from './pages/profiles/RyanProfile';
 
 const DefaultLayout = React.lazy(() => import('./layout/DefaultLayout'));
 
@@ -20,7 +21,7 @@ function App() {
           <Route element={<DefaultLayout />}>
             
             <Route path="/example" element={<ProfileExample/>}/>
-            <Route path="/breno" element={<BrenoProfile/>}/>
+            <Route path="/ryan" element={<RyanProfile/>}/>
 
           </Route>
 
