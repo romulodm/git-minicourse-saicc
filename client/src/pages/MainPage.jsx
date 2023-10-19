@@ -49,7 +49,7 @@ export default function MainPage(){
                     Repositório no GitHub
                   </a>
                   <NavLink to="/example">
-                    <p class="text-sm font-semibold leading-6 text-gray-900">Exemplo de perfil <span aria-hidden="true">→</span></p>
+                    <p className="text-sm font-semibold leading-6 text-gray-900">Exemplo de perfil <span aria-hidden="true">→</span></p>
                   </NavLink>
                 </div>
               </div>
