@@ -6,8 +6,7 @@ import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import AccountBalanceOutlinedIcon from '@mui/icons-material/AccountBalanceOutlined';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-
-export default function ProfileExample() {
+export default function BrenoProfile() {
 
   return (
     <div className="flex flex-col min-h-screen border-none screen rounded-lg bg-white px-4 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
@@ -19,7 +18,7 @@ export default function ProfileExample() {
                 <div className="absolute -bottom-6">
                   {/* Sua foto aqui: */}
                     <img
-                      src="https://picsum.photos/id/1005/1000"
+                      src="https://i.imgur.com/VYvlbIY.png"
                       className="object-cover border-4 border-white w-40 h-40 rounded-full"
                       alt="cover"
                     />
@@ -28,7 +27,7 @@ export default function ProfileExample() {
               <div className="text-center mt-12">
                 {/* Seu nome aqui: */}
                 <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
-                  Herbert Richers
+                  Breno Soares
                 </h3>
 
                 <div className="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
@@ -51,7 +50,7 @@ export default function ProfileExample() {
                   <SchoolOutlinedIcon style={{color: '#FDAE17'}}/>                        
                   {/* O curso aqui: */}
                   <span className="align-items-center" style={{marginLeft: '5px'}}>
-                    Oceonografia
+                    Engenharia de Computação
                   </span>
                 </div>
               </div>
@@ -61,16 +60,17 @@ export default function ProfileExample() {
                   <div className="w-full lg:w-9/12 px-4">                           
                     {/* Biografia aqui: */}
                     <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                      Meu nome é Herbert Richers, nasci no Japão e encontrei meu lar no Rio Grande do Sul. Foi na Universidade Federal do Rio Grande onde cursei "Oceonografia".
-                      Hoje tenho 32 anos, sou professor e pesquisador na minha área de estudo. Sou pai de treze filhos e pra ter paz, procuro ficar horas vendo o carregamento e descarregamento de navios no Porto de Rio Grande.
-                      Minha vida é uma jornada de paixão pela arte e pelo oceano, por isso ajudei a dirigir a versão de anime do filme "Tubarão", de 1975.
+                    Oi, pessoal, eu sou o Breno Soares, tenho 21 anos e sou obcecado por gatos! Quando não estou correndo atrás deles, estou ganhando várias partidas no rank mestre de League of Legends. 
+                    Também sou um torcedor fervoroso do Santos Futebol Clube, que é, obviamente, o melhor time do mundo.
                     </p>
                     <br/>
                     {/* Link para seu GitHub aqui: */}
                     <a 
-                      href="https://github.com/romulodm/git-minicurso-saicc" 
+                      href="https://github.com/BrenoGSoares" 
                       className="font-normal text-yellow-500"
-                      target="_blank">
+                      target="_blank"
+                    >
+
                       <GitHubIcon/>
                     </a>
                   </div>
