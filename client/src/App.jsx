@@ -6,8 +6,11 @@ import ErrorBoundary from './ErrorBoundary';
 import MainPage from './pages/MainPage';
 
 import ProfileExample from './pages/ProfileExample';
+
+import VictorFreitasProfile from './pages/profiles/VictorFreitasProfile';
 import BrenoProfile from './pages/profiles/BrenoProfile';
 import RyanProfile from './pages/profiles/RyanProfile';
+import ViniProfile from './pages/profiles/ViniProfile';
 
 const DefaultLayout = React.lazy(() => import('./layout/DefaultLayout'));
 
@@ -21,7 +24,12 @@ function App() {
           <Route element={<DefaultLayout />}>
             
             <Route path="/example" element={<ProfileExample/>}/>
-            <Route path="/ryan" element={<RyanProfile/>}/>
+
+            <Route path="/ryan" element={<RyanProfile/>}/>         
+            <Route path="/vini" element={<ViniProfile/>}/>
+            <Route path="/breno" element={<BrenoProfile/>}/>
+            <Route path="/victoraury" element={<VictorFreitasProfile/>}/>
+
 
           </Route>
 
