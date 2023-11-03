@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import ErrorBoundary from './ErrorBoundary';
 import MainPage from './pages/MainPage';
 
+import VictorFreitasProfile from './pages/profiles/VictorFreitasProfile';
 import ProfileExample from './pages/ProfileExample';
 import ViniProfile from './pages/profiles/ViniProfile';
 
@@ -20,7 +21,11 @@ function App() {
           <Route element={<DefaultLayout />}>
             
             <Route path="/example" element={<ProfileExample/>}/>
+              
             <Route path="/vini" element={<ViniProfile/>}/>
+            <Route path="/breno" element={<BrenoProfile/>}/>
+            <Route path="/victoraury" element={<VictorFreitasProfile/>}/>
+
 
           </Route>
 
